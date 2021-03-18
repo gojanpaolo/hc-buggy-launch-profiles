@@ -7,7 +7,7 @@ namespace Foo
         protected override void Configure(IObjectTypeDescriptor<HelloQuery> descriptor)
         {
             descriptor.Name("Query");
-            descriptor.Field(query => query.SayHello())
+            descriptor.Field(query => query.SayHello(default))
                 .Type<NonNullType<ListType<NonNullType<StringType>>>>()
                 .Name("sayHello")
                 .UseSorting();
