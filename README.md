@@ -1,6 +1,6 @@
 # hc-buggy-launch-profiles
 
-In `src/Properties/launchSettings.json` you'll find two profiles
+In `launchSettings.json` you'll find two profiles
 
 
 ```javascript
